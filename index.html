@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="joke-container">
+            <i class="fas fa-angle-double-left"></i>        
+            <span class="joke" id="joke"></span> 
+
+        </div>
+        
+        <!-- <div class="author" id="author"></div> -->
+        
+         <div class="btn-container">
+             <select name="select" class="select-lang" id="select-lang">
+                 <option value="en">en</option>
+                 <option value="de">de</option>
+                 <option value="ru">ru</option>
+                 <option value="cs">cs</option>
+
+             </select>
+
+             <button class="new-joke" id="new-joke-btn">New Joke</button>
+         </div>
+    </div>
+    <div class="loader" id="loader"></div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
